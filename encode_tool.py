@@ -3,7 +3,7 @@ import urllib.parse
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python encode_tool.py <string>")
+        print("Usage: python encode_tool.py '<string>'")
         sys.exit(1)
 
     string = sys.argv[1]
@@ -15,4 +15,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
